@@ -110,9 +110,9 @@
 
         // Initialize Firebase
         const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);
+        //const analytics = getAnalytics(app);
 
-        //var database = firebase.database();
+        var database = firebase.database();
         var lastStudentID = 0;
 
         // Add
